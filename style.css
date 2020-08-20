@@ -20,15 +20,13 @@ body {
     margin: 0;
   }
     header {
-      grid-area: header;
-      justify-self: center;
-      width: 600px;
-      height: auto;
+      grid-area: header;      
+
     }
 
       .logo img {
         border: 5px solid rgb(20, 6, 20);
-        max-width: 600px;
+        width: 100%;
         height: auto;
       }
 
@@ -170,24 +168,21 @@ body {
 @media (max-width: 700px) {
 
   .calcWrapper {
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
   }
 
   .footer {
     margin-top: 250px;
-  }
-
-  .navBar {
     display: flex;
     flex-direction: column;
   }
-}
 
-@media (max-height: 900px) {
-  
-  .calcWrapper {
-    margin-top: 100px;
+  .navBar ul{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;;
   }
+
+
 }
