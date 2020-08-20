@@ -22,14 +22,14 @@ body {
     header {
       grid-area: header;
       justify-self: center;
-      max-width: 700px;
-      max-height: 250px;
+      width: 600px;
+      height: auto;
     }
+
       .logo img {
         border: 5px solid rgb(20, 6, 20);
-        width: 600px;
-        height: 200px;        
-        object-fit: cover;
+        max-width: 600px;
+        height: auto;
       }
 
       .title {
@@ -43,7 +43,6 @@ body {
       grid-area: middle;
       max-height: 335px;
       width: auto;
-      margin-top: 40px;
       }
 
   
@@ -150,8 +149,6 @@ body {
           justify-content: center;
           align-items: center;
           align-content: space-between;
-          margin: 0;
-          padding: 0;
           flex-direction: row;
           }
 
@@ -170,16 +167,27 @@ body {
             margin: 1em 10px 0px 10px;
             }
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 700px) {
 
   .calcWrapper {
-    margin-top: 10%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    margin-top: 250px;
+  }
+
+  .navBar {
+    display: flex;
+    flex-direction: column;
   }
 }
 
 @media (max-height: 900px) {
   
   .calcWrapper {
-    margin-top: 10%
+    margin-top: 100px;
   }
 }
