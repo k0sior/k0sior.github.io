@@ -177,7 +177,7 @@ body {
   }
 }
 
-@media only screen and (max-height: 900px) {
+@media (max-height: 900px) {
   
   .calcWrapper {
     margin-top: 10%
