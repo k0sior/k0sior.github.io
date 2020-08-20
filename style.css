@@ -29,6 +29,7 @@ body {
         width: 100%;
         height: auto;
         max-width: 600px;
+
       }
 
     .calcWrapper {
@@ -38,7 +39,7 @@ body {
       grid-area: middle;
       max-height: 335px;
       width: auto;
-      }
+    }
 
   
       .manaInputWrapper {
@@ -76,7 +77,6 @@ body {
           #submitButton {
             justify-self: flex-end;
           }
-
         
         .result {
           background-color: rgb(29, 29, 29);
@@ -85,15 +85,15 @@ body {
           padding: 1%;
           width: 200px;
           border: 1px solid bisque;
-          border-radius: 25px;
-          
+          border-radius: 25px;      
         }
+
         .result table{
           border-collapse:separate; 
           border-spacing: 8px 10px ;
           table-layout: fixed;
           width: 200px; 
-          }
+        }
           
           .result tr{
             border-spacing: 12.5px;
@@ -122,17 +122,17 @@ body {
 
       .leftSidebar {
         grid-area: leftSide;
-        }
+      }
 
       .rightSidebar {
         grid-area: rightSide;
-        }
+      }
 
       .footer {
         grid-area: footer;
         color: bisque;
         padding-bottom: 1em;
-        }
+      }
 
         .footer a {
           color: white;
@@ -145,7 +145,7 @@ body {
           align-items: center;
           align-content: space-between;
           flex-direction: row;
-          }
+        }
 
           .navBar ul {
             list-style-type: none;
@@ -154,13 +154,13 @@ body {
             border: 2px groove bisque;
             background-color: rgb(58, 58, 58, 0.5);
             border-radius: 25em;
-            }
+          }
 
           .navBar a {
             color: white;
             display: flex;
             margin: 1em 10px 0px 10px;
-            }
+          }
 
 @media (max-width: 700px) {
 
@@ -180,6 +180,4 @@ body {
     flex-direction: column;
     border-radius: 10px;;
   }
-
-
 }
