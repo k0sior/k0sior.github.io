@@ -1,5 +1,7 @@
 # mtg-mana-calc
 
+LINK TO APP: https://k0sior.github.io/
+
 MtG lands calculator - made in VS Code
 
 This app calculates the ammount of specified lands you should put into your deck (either for contructed or limited decks)
