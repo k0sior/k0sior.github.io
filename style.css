@@ -19,6 +19,7 @@ body {
     column-gap: 15px;
     margin: 0;
   }
+
     header {
       grid-area: header;      
 
@@ -47,7 +48,7 @@ body {
         flex-direction: column;
         padding: 1%;
         width: 200px;        
-        border: 1px solid bisque;
+        border: 2px solid bisque;
         border-radius: 25px;
         background-color: rgb(29, 29, 29);
       }   
@@ -92,7 +93,7 @@ body {
           flex-direction: column;
           padding: 1%;
           width: 200px;
-          border: 1px solid bisque;
+          border: 2px solid bisque;
           border-radius: 25px;
         }
 
@@ -156,7 +157,6 @@ body {
           align-items: center;
           align-content: space-between;
           flex-direction: row;
-          
         }
 
           .navBar ul {
@@ -181,9 +181,19 @@ body {
     display: flex;
     flex-direction: column;
   }
+  
+  .manaInputWrapper {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  .result table {
+    padding-bottom: 10px;
+  }
 
   .footer {
-    margin-top: 250px;
+    padding-top: 15px;
+    margin-top: 265px;
     display: flex;
     flex-direction: column;
   }
@@ -191,7 +201,10 @@ body {
   .navBar ul{
     display: flex;
     flex-direction: column;
-    border-radius: 10px;;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    max-width: 140px;
+
   }
 }
 
