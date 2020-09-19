@@ -54,7 +54,7 @@ body {
       }   
 
         form label {
-          padding-top: 16px;
+          margin-top: 14px;
           display:flex;
           justify-content: center;
         }
@@ -74,6 +74,7 @@ body {
             border-radius: 6px;
             text-align: center;
             border: none;
+            font-size: 15px;
           }
 
           #submitButton {
