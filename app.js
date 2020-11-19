@@ -15,7 +15,7 @@ function getColorsSplit () {
 };
 
 // debugging
-console.log(getColorsSplit()) 
+// console.log(getColorsSplit()) 
 
 
 function calculateMana() {
@@ -36,8 +36,8 @@ function calculateMana() {
         let symbolsByColor = manaSplit[key] 
         
         // debugging
-        console.log(color)
-        console.log(manaSplit[key])
+        // console.log(color)
+        // console.log(manaSplit[key])
         
         // calculation pattern:
         let manaColorResult = symbolsByColor / totalSymbolsSum * totalLands;
@@ -45,10 +45,10 @@ function calculateMana() {
     }
 
     // debuging
-    console.log("total lands -- " + totalLands)
-    console.log(manaSplit)
-    console.log("mana symbols sum -- "  + totalSymbolsSum)
-    console.log(result)
+    // console.log("total lands -- " + totalLands)
+    // console.log(manaSplit)
+    // console.log("mana symbols sum -- "  + totalSymbolsSum)
+    // console.log(result)
     
     for (let key in result) {
         $("table").find("#result-" + key).html(result[key])
